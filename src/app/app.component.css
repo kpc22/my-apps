@@ -15,12 +15,13 @@
     background-size: cover;
     color: wheat;
     font-size: 2em;
-    overflow: scroll;
+    overflow: auto;
     border-radius: 10px;
 }
 .page-p-element {
     max-height: 200px;
-    overflow: scroll;
+    overflow-y: scroll;
+    scrollbar-width: none;
     margin: 16px;
     font-family: arial;
 }
